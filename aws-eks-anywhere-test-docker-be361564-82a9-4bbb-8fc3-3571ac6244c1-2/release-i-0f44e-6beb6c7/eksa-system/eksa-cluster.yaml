@@ -23,7 +23,7 @@ spec:
   datacenterRef:
     kind: DockerDatacenterConfig
     name: release-i-0f44e-6beb6c7
-  eksaVersion: v0.20.2-dev+build.7
+  eksaVersion: v0.20.2-dev+build.8
   externalEtcdConfiguration:
     count: 1
   gitOpsRef:
@@ -37,7 +37,7 @@ spec:
   managementCluster:
     name: release-i-0f44e-6beb6c7
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineHealthCheck:
       maxUnhealthy: 40%
     name: md-0
